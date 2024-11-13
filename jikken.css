@@ -1,0 +1,61 @@
+body {
+  font-family: "Avenir Next";
+  margin:0px;
+  padding:0px;
+}
+/* list-styleプロパティを用いて、<li>要素の黒点を取り除いてください */
+.header {
+  background-color: #99ccff;
+  position:fixed;
+  height:120px;
+  width:100%;
+  z-index:15;
+}
+.head-list {
+  list-style:none;
+  display:flex;
+  font-size :35px;
+  position:absolute;
+  top:0px;
+  left:400px;
+}
+
+.header-name {
+  font-size:60px;
+  position : relative;
+  top:20px;
+  left :60px;
+  
+}
+.main {
+  top:120px;
+  height: 600px;
+  
+}
+.main-name {
+  font-size:50px;
+  position:absolute;
+  top:450px;
+  left:30px;
+}
+.main-list {
+  font-size:40px;
+  flex-direction:column;
+  position:absolute;
+  top:200px;
+  left:500px;
+}
+.main-photo {
+  position:relative;
+  top:150px;
+  left:50px;
+}
+
+.footer {
+  background-color: #595857;
+  font-size:30px;
+  height: 100px;
+}
+.footer-h {
+  color:#fff;
+}
